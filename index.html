@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT OBJECT NOTATION</title>
+</head>
+<body>
+    <h1>JSON</h1>
+    <h2>java script object notation</h2>
+    <script>
+        const user = {
+            id :155,
+            name :"mahbub"
+        }
+        // {"id":155,"name":"mahbub"}
+        const userst = JSON.stringify(user);
+        console.log(userst);
+        // id: 155, name: 'mahbub'}
+        const userparse = JSON.parse(userst);
+        console.log(userparse);
+    </script>
+</body>
+</html>
